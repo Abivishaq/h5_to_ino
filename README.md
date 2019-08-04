@@ -4,10 +4,10 @@ Obtaining an arduino code that allows the arduino to perform forward propagation
 1. download and extract the zip file or clone this repository
 2. to be continued.....
 # Usage
-h52ino.py asks for the inputs: 
-full path to  .h5 file 
+h52ino.py asks for the inputs:
+  full path to  .h5 file
 and 
-full path to where the arduino code is to be stored
+  full path to where the arduino code is to be stored
 
 generate_ino.py - contains the definition of a function used by other scripts. The function get input arguments as h5 file full path and arduino file full path. It then reads the h5 files and writes the arduino code. 
 
