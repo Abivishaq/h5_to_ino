@@ -2,8 +2,17 @@
 Obtaining an arduino code that allows the arduino to perform forward propagation on a specific neural net. The neural nets architecture and weights are obtained from .h5 file. 
 # Installation guide
 1. download and extract the zip file or clone this repository
-2. to be continued.....
+2. Install Keras using pip
 # Usage
+1. Get or save keras model
+2. Run the h52ino.py script
+3. Input the path to the stored keras model
+4. Input the file name of the output arduino file
+5. The arduino file is generated
+6. Open the arduino file
+7. Specify how the input of the model is obtained
+8. Specify what to do with the output of the model
+# Files' explanantion
 h52ino.py asks for the inputs:
   full path to  .h5 file
 and 
